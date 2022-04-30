@@ -26,7 +26,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5rem 1rem;
-  background-color: lightpink;
 }
 body > main {
   margin-block: auto;
@@ -42,6 +41,7 @@ body > main {
   "testimonial";
   row-gap: 2em;
   max-width: 20.5em;
+  color: white;
 }
 .introduction-container {
   grid-area: introduction;
