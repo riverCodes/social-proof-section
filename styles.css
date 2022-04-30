@@ -157,7 +157,7 @@ h1 {
     width: 85%;
     flex-direction: row;
     justify-content: center;
-    column-gap: 3em;
+    column-gap: 2em;
   }
   .review1 {
     align-self: flex-start;
