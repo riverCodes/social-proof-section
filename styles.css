@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5rem 1rem;
+  background-color: lightpink;
 }
 body > main {
   margin-block: auto;
