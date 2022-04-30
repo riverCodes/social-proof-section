@@ -134,7 +134,6 @@ h1 {
     "introduction review"
     "testimonial testimonial";
     max-width: 100em;
-    column-gap: 3em;
     row-gap: 5em;
     transform: scale(.8);
   }
