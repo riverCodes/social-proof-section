@@ -136,7 +136,7 @@ h1 {
     max-width: 100em;
     column-gap: 3em;
     row-gap: 5em;
-    transform: scale(.75);
+    transform: scale(.8);
   }
   h1 {
     text-align: left;
