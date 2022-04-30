@@ -4,6 +4,7 @@
   --dark-grayish-magenta: hsl(303, 10%, 53%);
   --light-grayish-magenta: hsl(300, 24%, 96%);
 }
+
 /* Resetting margins, font-size and box-sizing of all elements. 
 Also applying global font-family and font-size. */
 * {
@@ -13,6 +14,22 @@ Also applying global font-family and font-size. */
   font-family: 'League Spartan', sans-serif;
   font-size: 15px;
 }
+
+/* Setting up a vertical layout component under a 100vh threshold that centers the main card
+vertically and horizontally. */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1rem;
+}
+body > main {
+  margin-block: auto;
+}
+
+/* Styling main section */
 .grid {
   display: grid;
   grid-template-areas:
@@ -20,11 +37,13 @@ Also applying global font-family and font-size. */
   "review"
   "testimonial";
   row-gap: 2em;
+  max-width: 25em;
 }
 .introduction-container {
   grid-area: introduction;
   display: flex;
   flex-direction: column;
+  row-gap: 1em;
 }
 .header-container {
   flex: 1;
@@ -52,7 +71,7 @@ h1 {
 .review {
   background-color: var(--light-grayish-magenta);
   padding: .6em 0;
-  border-radius: .2em;
+  border-radius: .5em;
   display: flex;
   flex-direction: column;
   row-gap: .3em;
@@ -69,7 +88,7 @@ h1 {
 }
 .testimonial {
   background-color: var(--very-dark-magenta);
-  border-radius: .2em;
+  border-radius: .5em;
   padding: 2em;
   display: flex;
   flex-direction: column;
