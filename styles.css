@@ -155,7 +155,7 @@ h1 {
   .review {
     padding: 1.5em 1em;
     border-radius: .75em;
-    width: 85%;
+    width: 35em;
     flex-direction: row;
     justify-content: center;
     column-gap: 2em;
